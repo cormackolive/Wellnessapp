@@ -24,3 +24,4 @@ export * from './KinPermissionCard';
 export * from './KinPaywallCard';
 export * from './KinLocationSelector';
 export * from './KinChart';
+export * from './KinOnboardingProgress';

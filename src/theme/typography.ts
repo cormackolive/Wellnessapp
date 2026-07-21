@@ -11,6 +11,7 @@ export const fonts = {
 export const type = {
   displayXl: { fontFamily: fonts.display, fontSize: 48, lineHeight: 52, letterSpacing: -1.2 },
   displayL: { fontFamily: fonts.display, fontSize: 38, lineHeight: 42, letterSpacing: -0.8 },
+  displayItalic: { fontFamily: fonts.displayItalic, fontSize: 26, lineHeight: 34, fontStyle: 'italic' as const },
   h1: { fontFamily: fonts.display, fontSize: 32, lineHeight: 37 },
   h2: { fontFamily: fonts.display, fontSize: 26, lineHeight: 31 },
   h3: { fontFamily: fonts.bodyMedium, fontSize: 20, lineHeight: 26 },
