@@ -2,12 +2,25 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "types": ["jest"],
+    "types": [
+      "jest"
+    ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@app/*": ["./app/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@app/*": [
+        "./app/*"
+      ]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "nativewind-env.d.ts", ".expo/types/**/*.ts", "expo-env.d.ts"],
-  "exclude": ["node_modules", "supabase/functions"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "nativewind-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "supabase/functions"
+  ]
 }
